@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+}
+
+span {
+  font-size: 2rem;
+  color: #777;
+}
+
+p.error {
+  color: red;
+}
+
+button.remove {
+  margin-right: 10px;
+}
+
+.dropzone {
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  /* justify-content: center; */
+  border: 3px dashed #bdbdbd;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  width: 260px;
+  height: 200px;
+
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.accept {
+  border-color: #107c10 !important;
+}
+
+.reject {
+  border-color: #d83b01 !important;
+}
